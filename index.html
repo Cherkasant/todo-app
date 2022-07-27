@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <script src="/app/todo.js" type="module" defer></script>
+    <title>TODOS-APP</title>
+  </head>
+  <body>
+    <div class="base">
+      <div class="container">
+        <div class="todo">
+          <h1 class="todo_title">TODO LIST</h1>
+          <form class="search">
+            <input
+              class="input_element one"
+              type="text"
+              name="search"
+              id=""
+              placeholder="searching...."
+            />
+          </form>
+          <div class="todo_elements">
+            <button class="btn" id="btn_deleteall_todo">Delete All</button>
+            <input
+              type="text"
+              class="input_element"
+              id="input_create_todo"
+              placeholder="Enter todo..."
+            />
+            <button class="btn" id="btn_add_todo">Add</button>
+          </div>
+          <div class="todo_list">
+            <template id="todo_template">
+              <div class="todo-item" id="item">
+                <input
+                  type="checkbox"
+                  class="input_checkbox"
+                  id="todo_checkbox"
+                />
+                <div class="description" id="todo_desc"></div>
+                <div class="date" id="todo_date"></div>
+                <button class="btn-delete" id="btn_reset_todo">X</button>
+              </div>
+            </template>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
