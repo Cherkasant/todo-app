@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
 
-@import '/styles/basic.css';
-@import '/styles/button.css';
-@import '/styles/variables.css';
-@import '/styles/input.css';
-@import '/styles/checkbox.css';
-@import '/styles/todo.css';
-@import '/styles/title.css';
+@import './styles/basic.css';
+@import './styles/button.css';
+@import './styles/variables.css';
+@import './styles/input.css';
+@import './styles/checkbox.css';
+@import './styles/todo.css';
+@import './styles/title.css';
